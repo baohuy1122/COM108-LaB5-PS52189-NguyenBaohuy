@@ -23,8 +23,8 @@
 - Lỗi/Cách sửa: 
 
 ### Lần 5: Bài 3
-- Trạng thái: 
-- Lỗi/Cách sửa: 
+- Trạng thái: Chờ chấm
+- Lỗi/Cách sửa: Hoàn thiện hàm phân phối tiền ATM; biên dịch và kiểm thử cục bộ thành công.
 
 ### Lần 6: Bài 3
 - Trạng thái: 
