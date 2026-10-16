@@ -31,8 +31,16 @@ int main() {
 
 // --- SINH VIÊN VIẾT CODE CỦA HÀM DƯỚI ĐÂY ---
 int phanPhoiATM(int soTien, int *to500, int *to200, int *to100, int *to50) {
-    // TODO: Viết code phân phối số tờ tiền và trả về tổng số tờ
-    // Yeu cau: Tuyet doi khong dung lenh in ra man hinh ben trong ham nay
-    
-    return 0;
+    *to500 = soTien / 500000;
+    soTien %= 500000;
+
+    *to200 = soTien / 200000;
+    soTien %= 200000;
+
+    *to100 = soTien / 100000;
+    soTien %= 100000;
+
+    *to50 = soTien / 50000;
+
+    return (*to500 + *to200 + *to100 + *to50);
 }
